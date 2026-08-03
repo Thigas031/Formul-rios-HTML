@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
     <header>
         <h1>Formulario Básico</h1>
 
-        <input
-        id="pesquisa"
-        type="search"
-        placeholder="pesquisar">
+        <input id="pesquisa" type="search" placeholder="pesquisar">
 
     </header>
     <form>
@@ -25,9 +24,7 @@
 
                 <div class="preview">
 
-                    <img
-                        src="img/Perfil.png"
-                        alt="Foto de Perfil">
+                    <img src="img/Perfil.png" alt="Foto de Perfil">
 
                 </div>
 
@@ -38,9 +35,9 @@
                     </label>
 
                     <input
-                        type="file"
-                        id="foto"
-                        accept=".jpg, .jpeg, .png">
+                    type="file"
+                    id="foto"
+                    accept=".jpg, .jpeg, .png">
 
                     <p>JPG, PNG de até 5 MB</p>
 
@@ -56,8 +53,8 @@
                     <label for="nome">
                         Primeiro Nome*
                     </label>
-                    
-                    <input 
+
+                    <input
                     type="text"
                     id="nome"
                     name="nome"
@@ -69,8 +66,8 @@
                     <label for="sobrenome">
                         Segundo Nome*
                     </label>
-                    
-                    <input 
+
+                    <input
                     type="text"
                     id="sobrenome"
                     name="sobrenome"
@@ -84,7 +81,7 @@
                     <label for="email">
                         Endereço de E-mail*
                     </label>
-                    
+
                     <input
                     type="email"
                     id="email"
@@ -97,13 +94,13 @@
                         Numero de Telefone*
                     </label>
                     <div class="tel-input">
-                    <span>+55</span>
-                    <input 
-                    type="tel"
-                    id="telefone"
-                    name="telefone"
-                    placeholder="Insira seu número de telefone"
-                    required>
+                        <span>+55</span>
+                        <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        placeholder="Insira seu número de telefone"
+                        required>
                     </div>
                 </div>
             </div>
@@ -113,9 +110,9 @@
                     <label for="senha">
                         Senha*
                     </label>
-                    <input 
+                    <input
                     type="password"
-                    id="senha"
+                    id="senha" 
                     name="senha"
                     placeholder="Crie uma senha"
                     required
@@ -130,7 +127,7 @@
                     <div class="grupo-radio">
                         <div class="item-radio">
 
-                            <input 
+                            <input
                             type="radio"
                             id="masculino"
                             name="genero"
@@ -144,7 +141,7 @@
 
                         <div class="item-radio">
 
-                            <input 
+                            <input
                             type="radio"
                             id="feminino"
                             name="genero"
@@ -158,7 +155,7 @@
 
                         <div class="item-radio">
 
-                            <input 
+                            <input
                             type="radio"
                             id="outro"
                             name="genero"
@@ -178,26 +175,21 @@
                     <label for="nascimento">
                         Data de Nascimento
                     </label>
-                    <input 
+                    <input
                     type="date"
                     id="nascimento"
                     name="nascimento"
                     min="1900-01-01"
-                    max="2026-01-08"
                     required>
                 </div>
             </div>
         </section>
-        
+
         <section class="card">
             <h2>Outros Tipos de Inputs</h2>
             <h3>Interesses</h3>
 
-            <input 
-            type="checkbox"
-            id="html"
-            name="interesses"
-            value="html">
+            <input type="checkbox" id="html" name="interesses" value="html">
 
             <label for="html">
                 HTML
@@ -205,11 +197,7 @@
 
             <br>
 
-            <input 
-            type="checkbox"
-            id="css"
-            name="interesses"
-            value="css">
+            <input type="checkbox" id="css" name="interesses" value="css">
 
             <label for="css">
                 CSS
@@ -220,47 +208,30 @@
             <label for="satisfacao">
                 Satisfação
             </label>
-            
+
             <br>
 
-            <input 
-            type="range"
-            id="satisfacao"
-            name="satisfacao"
-            min="0"
-            max="10"
-            value="5">
+            <input type="range" id="satisfacao" name="satisfacao" min="0" max="10" value="5">
 
             <br><br>
 
             <label for="cor">
                 Cor Favorita
             </label>
-            
+
             <br>
 
-            <input 
-            type="color"
-            id="cor"
-            name="cor"
-            value="royalblue">
+            <input type="color" id="cor" name="cor" value="royalblue">
 
             <br><br>
 
             <label for="numero">
                 Quantidade
             </label>
-            
+
             <br>
 
-            <input 
-            type="number" 
-            name="quantidade" 
-            id="numero"
-            min="1"
-            max="100"
-            value="1"
-            step="1">
+            <input type="number" name="quantidade" id="numero" min="1" max="100" value="1" step="1">
         </section>
 
         <div class="botoes">
@@ -269,7 +240,7 @@
             </button>
 
             <button type="submit" class="bnt-enviar">
-                 Enviar
+                Enviar
             </button>
         </div>
     </form>
